@@ -15,7 +15,7 @@ This project utilizes two datasets:
 - Download from [here](https://www.kaggle.com/c/imagenet-object-localization-challenge/data).
 - Organize the dataset by creating folders for each class within the ./data/imagenet/ directory. The structure should be similar to ./data/imagenet/classes_folders.
 
-`./data` folder Structure:
+`./data` folder structure:
 
 ```
 ./
@@ -70,6 +70,10 @@ python contrastive_learning/run.py --dataset cifar10 --model transformer --class
 ```
 python contrastive_learning/run.py --dataset imagenet --model vanilla --classifier False
 ```
+
+### Weights:
+
+You can access the weights [here](https://drive.google.com/drive/folders/1j1cKbQuuEvjA8gJJgmhX_B02sR-zkCp_?usp=sharing).
 
 ## ./notebooks/
 
